@@ -8,7 +8,7 @@ export default {
   },
   font: {
     family:
-      "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+      "DM Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     light: 300,
     normal: 400,
     small_bold: 500,
@@ -23,6 +23,7 @@ export default {
     }
   },
   colors: {
+    mainBg: '#0C0C0C',
     white: '#F9F9F9',
     green: '#00DF5E',
     dark: '#171717',

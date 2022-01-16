@@ -1,9 +1,9 @@
 import {
   createGlobalStyle,
+  css,
   DefaultTheme,
   GlobalStyleComponent
 } from 'styled-components'
-import theme from './theme'
 
 type GlobalStylesProps = {
   removeBg?: boolean
@@ -47,16 +47,19 @@ const GlobalStyles: GlobalStyleComponent<
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
- html{
-  font-size: 62.5%
-}
-html , body , #_next{
-  height: 100%;
-}
-body{
-  font-family: ${theme.font.family};
-  background: '#0C0C0C';
-  background-color: ${theme.colors.mainBg}
-}
+
+${({ theme, removeBg }) => css`
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-family: ${theme.font.family};
+    font-size: ${theme.font.sizes.medium};
+    ${!removeBg &&
+    css`
+      background-color: ${theme.colors.mainBg};
+    `}
+  }
+`}
 `
 export default GlobalStyles

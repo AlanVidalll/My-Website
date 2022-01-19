@@ -8,11 +8,11 @@ export const parameters = {
     default: 'twitter',
     values: [
       {
-        name: 'won-light',
+        name: 'light',
         value: theme.colors.white,
       },
       {
-        name: 'won-dark',
+        name: 'dark',
         value: theme.colors.mainBg,
       },
     ],

@@ -9,17 +9,18 @@ export default {
   font: {
     family:
       "DM Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+
     light: 300,
     normal: 400,
     small_bold: 500,
     bold: 700,
     sizes: {
-      xsmall: '1.2rem',
-      small: '1.4rem',
-      medium: '1.6rem',
-      large: '1.8rem',
-      xlarge: '2.0rem',
-      xxlarge: '2.8rem'
+      xsmall: '1.4rem',
+      small: '1.6rem',
+      medium: '1.8rem',
+      large: '2.6rem',
+      xlarge: '3.2rem',
+      xxlarge: '3.6rem'
     }
   },
   colors: {
